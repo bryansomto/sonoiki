@@ -9,19 +9,19 @@ export const Body = styled.main`
 `;
 
 export const Main = styled.section`
-  ${tw`flex flex-col my-44 sm:mx-10 md:mx-14 lg:mx-32 px-5 sm:px-10 md:px-56 font-body`}
+  ${tw`flex flex-col justify-start my-20 sm:my-44 mx-5 sm:mx-10 md:mx-14 lg:mx-32 px-3 sm:px-10 md:px-16 font-body text-justify`}
   .content {
-    ${tw`flex mb-20`}
+    ${tw`flex flex-col sm:flex-row mb-20`}
   }
   .title {
     ${tw``}
     h3 {
-      ${tw`w-40 lg:w-60 font-body font-semibold`}
+      ${tw`w-28 md:w-40 lg:w-60 font-body font-semibold mb-3`}
     }
   .text {
     ${tw``}
     p {
-      ${tw`w-40 sm:w-60`}
+      ${tw``}
     }
   }
 `;
