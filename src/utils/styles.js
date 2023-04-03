@@ -46,7 +46,10 @@ export const MyCard = styled.section`
     ${tw`rounded-full w-24 h-24 sm:w-48 sm:h-48 ring-4 ring-pink-300`}
   }
   .text {
-    ${tw`text-2xl sm:text-5xl mx-5 flex items-end my-12 sm:my-8 font-body font-bold`}
+    ${tw`text-2xl sm:text-5xl mx-4 flex flex-col justify-center my-12 sm:my-24 sm:py-2 font-body font-bold`}
+    p {
+      ${tw`text-sm sm:text-xl`}
+    }
   }
 `;
 

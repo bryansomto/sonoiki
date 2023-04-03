@@ -9,15 +9,11 @@ const Contact = () => {
       <Form onSubmit={(e) => handleSubmit(e)}>
         <header>
           <h3>Contact Me</h3>
-          <img src={contact} />
+          <img src={contact} alt="contact" />
         </header>
         <div className="input">
           <label htmlFor="name"> Email </label>
           <input type="email" name="email" placeholder="(e.g). abc@gmail.com" />
-        </div>
-        <div className="input">
-          <label htmlFor="password"> password </label>
-          <input type="password" name="password" />
         </div>
         <div className="input">
           <label htmlFor="message"> message </label>
